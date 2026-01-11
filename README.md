@@ -18,7 +18,7 @@ This template provides ready-to-use hook scripts for all major hook types with e
 1. **Fork/Clone this template**
    ```bash
    # Clone the template
-   git clone https://github.com/your-username/session-hooks-template.git my-plugin
+   git clone https://github.com/johnlindquist/claude-session-hooks-template.git my-plugin
    cd my-plugin
 
    # Install dependencies

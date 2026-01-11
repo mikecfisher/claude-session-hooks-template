@@ -5,12 +5,12 @@
   "module": "index.ts",
   "type": "module",
   "author": {
-    "name": "Your Name",
-    "url": "https://github.com/your-username"
+    "name": "John Lindquist",
+    "url": "https://github.com/johnlindquist"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/your-plugin-name"
+    "url": "https://github.com/johnlindquist/claude-session-hooks-template"
   },
   "license": "MIT",
   "keywords": [
