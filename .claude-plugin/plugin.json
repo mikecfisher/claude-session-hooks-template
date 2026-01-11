@@ -1,0 +1,13 @@
+{
+  "name": "session-hooks-template",
+  "version": "1.0.0",
+  "description": "Template for creating Claude Code session hook plugins - customize to add your own session behaviors",
+  "author": {
+    "name": "Your Name",
+    "url": "https://github.com/your-username"
+  },
+  "repository": "https://github.com/your-username/your-plugin-name",
+  "license": "MIT",
+  "keywords": ["hooks", "session", "template", "claude-code", "plugin"],
+  "hooks": "./hooks/hooks.json"
+}

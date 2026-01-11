@@ -1,0 +1,32 @@
+{
+  "name": "session-hooks-template",
+  "version": "1.0.0",
+  "description": "Template for AI agents to create Claude Code session hook plugins",
+  "module": "index.ts",
+  "type": "module",
+  "author": {
+    "name": "Your Name",
+    "url": "https://github.com/your-username"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-plugin-name"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "hooks",
+    "session",
+    "template"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "devDependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.2",
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}
