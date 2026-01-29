@@ -1,13 +1,12 @@
 {
-  "name": "session-hooks-template",
+  "name": "quality-gate-hooks",
   "version": "1.0.0",
-  "description": "Template for creating Claude Code session hook plugins - customize to add your own session behaviors",
+  "description": "Blocks Claude from stopping until quality gates pass (typecheck, lint, knip, test)",
   "author": {
-    "name": "John Lindquist",
-    "url": "https://github.com/johnlindquist"
+    "name": "Mike Fisher",
+    "url": "https://github.com/mikecfisher"
   },
-  "repository": "https://github.com/johnlindquist/claude-session-hooks-template",
+  "repository": "https://github.com/mikecfisher/quality-gate-hooks",
   "license": "MIT",
-  "keywords": ["hooks", "session", "template", "claude-code", "plugin"],
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["hooks", "quality-gate", "typecheck", "lint", "test", "claude-code", "plugin"]
 }

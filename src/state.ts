@@ -41,7 +41,7 @@ import { join } from "path";
 /**
  * Prefix for state files. Change this to match your plugin name.
  */
-const STATE_FILE_PREFIX = "session-hooks-template";
+const STATE_FILE_PREFIX = "quality-gate-hooks";
 
 // =============================================================================
 // STATE MANAGEMENT FUNCTIONS
@@ -166,6 +166,15 @@ export interface ExampleSessionState {
     [key: string]: boolean;
   };
   // Add your custom fields here
+}
+
+/**
+ * State interface for the quality gate stop hook.
+ * Tracks denial count to implement a safety valve.
+ */
+export interface StopHookState {
+  sessionId: string;
+  denialCount: number;
 }
 
 /**
